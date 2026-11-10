@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="АВТО ТЕХ 56 — автосервис в Оренбурге. Диагностика, ремонт и обслуживание автомобилей.">
+<meta name="theme-color" content="#111318">
+<title>АВТО ТЕХ 56 — автосервис в Оренбурге</title>
+<style>
+:root{--bg:#111318;--panel:#1a1e25;--muted:#aeb5c0;--red:#e53935;--white:#f6f7f9;--line:#303640}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font:16px/1.55 Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#111318ed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-weight:900;font-size:21px;letter-spacing:.4px}.logo span{color:var(--red)}nav{display:flex;gap:24px;color:#d5d9df;font-size:14px}nav a:hover,.link:hover{color:var(--red)}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--red);color:white;padding:13px 20px;border:0;border-radius:7px;font-weight:800;cursor:pointer}.btn:hover{background:#c92c29}.btn.ghost{background:transparent;border:1px solid #646c78}
+.hero{min-height:560px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 48%,#5a2525 0,#24212a 25%,#111318 62%)}
+.hero:after{content:"";position:absolute;right:-5%;top:8%;width:58%;height:85%;background:linear-gradient(135deg,transparent 0 20%,#ffffff0a 20% 21%,transparent 21% 39%,#e5393522 39% 40%,transparent 40%),linear-gradient(155deg,#343b46,#161a20 55%,#08090c);clip-path:polygon(8% 55%,24% 30%,64% 20%,91% 44%,100% 76%,0 78%);filter:drop-shadow(0 25px 28px #000);opacity:.9}
+.hero:before{content:"";position:absolute;right:5%;top:65%;width:52%;height:12%;border-radius:50%;background:#000;filter:blur(22px)}
+.hero-content{position:relative;z-index:1;max-width:620px;padding:85px 0}.eyebrow{color:#ff7772;font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:12px}.hero h1{font-size:clamp(40px,6vw,68px);line-height:1.03;margin:18px 0}.hero p{font-size:18px;color:#c3c8d0;max-width:520px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.tagline{color:#9da5b1;margin-top:25px;font-size:13px}
+section{padding:76px 0}.section-head{max-width:650px;margin-bottom:34px}.section-head h2{font-size:34px;margin:0 0 10px}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:23px}.card .ico{font-size:25px}.card h3{margin:12px 0 7px}.card p{margin:0;color:var(--muted);font-size:14px}
+.dark{background:#151920}.price-list{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}.price-row{display:flex;justify-content:space-between;gap:15px;padding:14px 0;border-bottom:1px solid var(--line)}.price-row span:first-child{color:#dce0e6}.price-row b{white-space:nowrap;color:#ff7772}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.photo{height:190px;border-radius:11px;background:linear-gradient(145deg,#414a57,#202630 55%,#8a2929);position:relative;overflow:hidden}.photo:nth-child(2){background:linear-gradient(135deg,#343d49,#11151b 60%,#6d2525)}.photo:nth-child(3){background:linear-gradient(45deg,#171b22,#555e69 50%,#252a33)}.photo:after{content:"АВТО ТЕХ 56";position:absolute;bottom:13px;left:15px;font-weight:900;letter-spacing:1px;color:#ffffffb8;font-size:12px}
+.advantages{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.adv{border-left:3px solid var(--red);padding:4px 0 4px 15px}.adv b{display:block;font-size:18px}.adv span{color:var(--muted);font-size:13px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.contact-box{background:var(--panel);border:1px solid var(--line);padding:25px;border-radius:12px}.contact-box p{color:var(--muted)}form{display:grid;gap:12px}input,textarea{width:100%;background:#101319;color:white;border:1px solid #3b424e;border-radius:7px;padding:13px;font:inherit}textarea{min-height:100px;resize:vertical}.hint{font-size:12px;color:#9ca4b0}
+footer{border-top:1px solid var(--line);padding:25px 0;color:#9da5b1;font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){nav{display:none}.hero{min-height:540px}.hero:after{right:-25%;top:42%;width:90%;height:50%;opacity:.48}.grid{grid-template-columns:1fr 1fr}.price-list,.contact-grid{grid-template-columns:1fr}.advantages{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr}.photo{height:160px}}
+@media(max-width:440px){.grid{grid-template-columns:1fr}.hero-content{padding:65px 0}.section-head h2{font-size:29px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#">АВТО <span>ТЕХ 56</span></a><nav><a href="#services">Услуги</a><a href="#prices">Цены</a><a href="#about">О нас</a><a href="#contacts">Контакты</a></nav><a class="btn" href="#contacts">Оставить заявку</a></div></header>
+<main>
+<section class="hero"><div class="wrap"><div class="hero-content"><div class="eyebrow">Автосервис • Оренбург</div><h1>Надёжный сервис<br>для вашего авто</h1><p>Диагностика, техническое обслуживание и ремонт автомобилей. Помогаем поддерживать машину в отличном состоянии.</p><div class="actions"><a class="btn" href="#contacts">Записаться на сервис</a><a class="btn ghost" href="#services">Наши услуги</a></div><div class="tagline">Профессиональный подход · Честная консультация · Забота об автомобиле</div></div></div></section>
+<section id="services"><div class="wrap"><div class="section-head"><div class="eyebrow">Что мы делаем</div><h2>Услуги автосервиса</h2><p>Основные работы по диагностике, обслуживанию и ремонту автомобиля.</p></div><div class="grid">
+<div class="card"><div class="ico">🔧</div><h3>Ремонт двигателя</h3><p>Диагностика неисправностей и ремонт узлов двигателя.</p></div>
+<div class="card"><div class="ico">🛞</div><h3>Ходовая часть</h3><p>Проверка подвески, замена изношенных деталей.</p></div>
+<div class="card"><div class="ico">🖥️</div><h3>Компьютерная диагностика</h3><p>Считывание ошибок и проверка электронных систем.</p></div>
+<div class="card"><div class="ico">🛢️</div><h3>Замена масла</h3><p>Замена моторного масла и фильтров.</p></div>
+<div class="card"><div class="ico">🛑</div><h3>Тормозная система</h3><p>Осмотр и обслуживание тормозных механизмов.</p></div>
+<div class="card"><div class="ico">⚙️</div><h3>Техническое обслуживание</h3><p>Плановые работы и комплексная проверка автомобиля.</p></div>
+</div></div></section>
+<section class="dark" id="prices"><div class="wrap"><div class="section-head"><div class="eyebrow">Прозрачно и понятно</div><h2>Примерный прайс</h2><p>Цены указаны для демонстрации сайта и требуют подтверждения автосервисом.</p></div><div class="price-list">
+<div class="price-row"><span>Компьютерная диагностика</span><b>от 800 ₽</b></div><div class="price-row"><span>Замена масла</span><b>от 900 ₽</b></div>
+<div class="price-row"><span>Замена воздушного фильтра</span><b>от 300 ₽</b></div><div class="price-row"><span>Замена салонного фильтра</span><b>от 400 ₽</b></div>
+<div class="price-row"><span>Замена тормозных колодок</span><b>от 1 200 ₽</b></div><div class="price-row"><span>Замена тормозных дисков</span><b>от 1 800 ₽</b></div>
+<div class="price-row"><span>Осмотр ходовой части</span><b>от 600 ₽</b></div><div class="price-row"><span>Замена стойки стабилизатора</span><b>от 700 ₽</b></div>
+<div class="price-row"><span>Замена свечей зажигания</span><b>от 800 ₽</b></div><div class="price-row"><span>Замена аккумулятора</span><b>от 500 ₽</b></div>
+<div class="price-row"><span>Замена ремня навесного оборудования</span><b>от 1 200 ₽</b></div><div class="price-row"><span>Проверка перед покупкой</span><b>от 2 000 ₽</b></div>
+<div class="price-row"><span>Развал-схождение</span><b>от 1 500 ₽</b></div><div class="price-row"><span>Замена охлаждающей жидкости</span><b>от 1 000 ₽</b></div>
+<div class="price-row"><span>Замена тормозной жидкости</span><b>от 900 ₽</b></div><div class="price-row"><span>Дополнительные работы</span><b>по согласованию</b></div>
+</div></div></section>
+<section id="about"><div class="wrap"><div class="section-head"><div class="eyebrow">Почему выбирают нас</div><h2>Внимание к каждой детали</h2><p>Наша задача — помочь вам разобраться с проблемой и подобрать подходящее решение.</p></div><div class="advantages">
+<div class="adv"><b>Понятно</b><span>Объясняем, какие работы необходимы</span></div><div class="adv"><b>Согласованно</b><span>Обсуждаем стоимость до начала работ</span></div><div class="adv"><b>Комплексно</b><span>Проверяем связанные системы автомобиля</span></div><div class="adv"><b>Удобно</b><span>Можно оставить заявку онлайн</span></div></div><div style="margin-top:35px" class="gallery"><div class="photo"></div><div class="photo"></div><div class="photo"></div></div><p class="hint">Изображения и оформление в этом демонстрационном макете условные. Добавьте реальные фотографии сервиса перед публикацией.</p></div></section>
+<section class="dark" id="contacts"><div class="wrap"><div class="section-head"><div class="eyebrow">Свяжитесь с нами</div><h2>Записаться на обслуживание</h2><p>Оставьте контакты и кратко опишите задачу — подготовим сообщение для отправки в Telegram.</p></div><div class="contact-grid"><div class="contact-box"><h3>АВТО ТЕХ 56</h3><p><b>Город:</b> Оренбург</p><p><b>Адрес:</b> уточняется</p><p><b>График:</b> уточняется</p><p><b>Telegram:</b> <a class="link" href="https://t.me/valikk56" target="_blank" rel="noopener">@valikk56</a></p><p class="hint">Это демонстрационный сайт. Перед реальным запуском укажите подтверждённые адрес, телефон, график и цены.</p></div><div class="contact-box"><form id="request"><input id="name" placeholder="Ваше имя" required><input id="phone" placeholder="Телефон или Telegram" required><input id="car" placeholder="Марка и модель автомобиля"><textarea id="message" placeholder="Что нужно сделать?"></textarea><button class="btn" type="submit">Подготовить заявку в Telegram</button><div class="hint">После нажатия откроется Telegram с готовым текстом. Сообщение нужно будет отправить самостоятельно.</div></form></div></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 АВТО ТЕХ 56</span><span>Демонстрационный макет сайта автосервиса</span></div></footer>
+<script>
+document.getElementById('request').addEventListener('submit',function(e){e.preventDefault();const v=id=>document.getElementById(id).value.trim();const text='Заявка с сайта АВТО ТЕХ 56%0AИмя: '+encodeURIComponent(v('name'))+'%0AКонтакт: '+encodeURIComponent(v('phone'))+'%0AАвтомобиль: '+encodeURIComponent(v('car'))+'%0AКомментарий: '+encodeURIComponent(v('message'));window.open('https://t.me/valikk56?text='+text,'_blank','noopener');});
+</script>
+</body></html>
